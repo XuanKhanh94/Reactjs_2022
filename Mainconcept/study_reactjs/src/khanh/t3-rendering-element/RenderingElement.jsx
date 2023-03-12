@@ -1,3 +1,7 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component:  function RenderingElement()
+
 export default function RenderingElement() {
     return (
         <div className="style">

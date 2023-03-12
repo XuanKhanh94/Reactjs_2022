@@ -1,3 +1,6 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: function HelloWorld()
 export default function HelloWorld() {
     return (
         <div className="style">

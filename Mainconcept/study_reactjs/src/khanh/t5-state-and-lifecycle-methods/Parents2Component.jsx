@@ -1,6 +1,13 @@
 import { render } from '@testing-library/react';
 import React from 'react'
+// 4.Components and Props
+//      1. Function And Class Components
+//         b. Class component: class Parent2Component extends React.Component {
 class Parent2Component extends React.Component {
+    // 5. State and Lifecycle
+    //      2. Add Local State to a Class:   constructor(props) {
+    //                                        super(props)
+    //                                         }
     constructor(props) {
         super(props);
     }

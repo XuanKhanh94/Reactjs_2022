@@ -1,3 +1,7 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: const ConditionalRendering = () => {
+
 const ConditionalRendering = () => {
     return (
         <div className="style">

@@ -1,5 +1,9 @@
 import UserInfo from "./UserInfo"
 
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component:  function ComponentAndProps
+
 export default function ComponentAndProps(props) {
     const dataUser = {
         name: 'Phan Xuan Khanh',
@@ -8,6 +12,8 @@ export default function ComponentAndProps(props) {
     }
     return (
         <div>
+            {/* 4. Components and Props */}
+            {/*     2. Rendering a Component: user-definded Components => <UserInfo dataUser={dataUser} /> */}
             <UserInfo dataUser={dataUser} />
         </div>
     )

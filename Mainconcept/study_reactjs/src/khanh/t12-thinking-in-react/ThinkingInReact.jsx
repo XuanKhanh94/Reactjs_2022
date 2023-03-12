@@ -1,11 +1,23 @@
 import React from 'react';
+
+// 4.Components and Props
+//      1. Function And Class Components
+//         b. Class component: class ThinkingInReact extends React.Component {
 class ThinkingInReact extends React.Component {
+    // 5. State and Lifecycle
+    //      2. Add Local State to a Class:   constructor(props) {
+    //                                        super(props)
+    //                                         }
     constructor(props) {
         super(props)
 
     }
 
     render() {
+        // 8. Lists and Keys
+        //      1. Rendering Multiple Components:  const renderData = data.map((data) => { 
+        //                                           return <span>category: {data.category}, price: {data.price}, name: {data.name}<br /></span>
+        //                                           })
         const renderData = data.map((data) => {
             return <span>category: {data.category}, price: {data.price}, name: {data.name}<br /></span>
         })
@@ -15,6 +27,8 @@ class ThinkingInReact extends React.Component {
                 <div className="content">
                     <h3>Start With A Mock</h3>
                     <strong>Our JSON API returns some data that looks like this:</strong><br />
+                    {/*  8. Lists and Keys*/}
+                    {/*       1. Rendering Multiple Components:  {renderData} */}
                     {renderData}
                 </div><br />
                 <div className="content">

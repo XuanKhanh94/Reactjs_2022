@@ -1,8 +1,19 @@
 import React from 'react';
+
+// 4.Components and Props
+//      1. Function And Class Components
+//         b. Class component: class Form extends React.Component {
 class Form extends React.Component {
+    // 5. State and Lifecycle
+    //      2. Add Local State to a Class:   constructor(props) {
+    //                                        super(props)
+    //                                         }
     constructor(props) {
         super(props)
     }
+    // 6. Handling Events
+    //     3. Events in class ES6:  handleSelectTag(e) {}
+    //                              handleMultiInput(e) {}
     handleSelectTag(e) {
 
     }
@@ -26,6 +37,8 @@ class Form extends React.Component {
                 <div className="content">
                     <h3>The select Tag</h3>
                     <p>Trong React, thay vì dùng thuộc tính selected, ta sẽ dùng thuộc tính value ở thẻ select.</p>
+                    {/* 6. Handling Events */}
+                    {/*     3. Events in class ES6: onchange={this.handleSelectTag} */}
                     <select onchange={this.handleSelectTag} style={{ marginBottom: '10px' }}>
                         <option>Select 1</option>
                         <option>Select 2</option>
@@ -40,7 +53,11 @@ class Form extends React.Component {
                 </div><br />
                 <div className="content">
                     <h3>Handling Multiple Inputs</h3>
+                    {/* 6. Handling Events */}
+                    {/*     3. Events in class ES6: onchange={this.handleMultiInput} */}
                     <input type="checkbox" onchange={this.handleMultiInput} />
+                    {/* 6. Handling Events */}
+                    {/*     3. Events in class ES6: onchange={this.handleMultiInput} */}
                     <input type="text" style={{ marginBottom: '10px' }} onchange={this.handleMultiInput} />
                 </div><br />
                 <div className="content">

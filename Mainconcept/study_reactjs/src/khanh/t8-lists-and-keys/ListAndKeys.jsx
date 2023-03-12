@@ -1,6 +1,17 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: const ListsAndKeys = () => {
+
 const ListsAndKeys = () => {
+    // 8.Lists and Keys
+    //      2. Basic List Component:   const newArray = [1, 2, 3, 6, 523, 4234234, 23423, 1]
+    //                                  const listNumber = newArray.map((number) => {
+    //                                  return <li key={number.toString()}>{number}</li>
+    //                                   })
     const newArray = [1, 2, 3, 6, 523, 4234234, 23423, 1]
     const listNumber = newArray.map((number) => {
+        // 8.Lists and Keys
+        //     3. Keys: <li key={number.toString()}>
         return <li key={number.toString()}>{number}</li>
     })
     return (
@@ -9,6 +20,8 @@ const ListsAndKeys = () => {
             <div className="content">
 
                 <strong>Demo:</strong>
+                {/*  8.Lists and Keys
+                             2. Basic List Component:  {listNumber}*/}
                 {listNumber}
             </div><br />
             <div className="content">
