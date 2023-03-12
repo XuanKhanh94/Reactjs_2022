@@ -1,4 +1,12 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: function HandlingEvent() {
+
 function HandlingEvent() {
+    // 6. Handling Events
+    //      2. Form 
+    //          In React:  es.preventDefault();
+    //                      alert('Haha, có 1 thanh niên bị lừa......')
     function handleSubmit(es) {
         es.preventDefault();
         alert('Haha, có 1 thanh niên bị lừa......')
@@ -8,6 +16,11 @@ function HandlingEvent() {
         <div className="style">
             <div className="content">
                 <h1>Unit 6: Handling Event</h1>
+                {/* 6. Handling Events */}
+                {/*     2.Form */}
+                {/*         In React:   <form onSubmit={handleSubmit}>
+                                        <button type="Submit" className="btn-handle">Bấm vào đây có điều vui lắm</button>
+                                        </form>*/}
                 <form onSubmit={handleSubmit}>
                     <button type="Submit" className="btn-handle">Bấm vào đây có điều vui lắm</button>
                 </form>

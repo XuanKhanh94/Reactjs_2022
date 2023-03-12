@@ -13,10 +13,22 @@ import LiftingStateUp from "./t10-lifting-state-up/LiftingStateUp";
 import ComponentInheritance from "./t11-component-inheritance/ComponentInheritance";
 import ThinkingInReact from "./t12-thinking-in-react/ThinkingInReact";
 
+// 4.Components and Props
+//      1. Function And Class Components
+//        a. Function component: function KhanhReact(props) {
 function KhanhReact(props) {
     return (
         <div>
             hello Khánh
+            {/* 4. Components and Props */}
+            {/*          2. Rendering a Component: <HieuSauState />,<HelloWorld />,<IntroducingJSX />,<RenderingElement />,<ComponentAndProps />
+                                                  <StateAndLifecycle />,<HandlingEvent /> ,<ConditionalRendering />,<ListsAndKeys />,<Form />,<LiftingStateUp />,<ComponentInheritance />,<ThinkingInReact />*/}
+
+            {/*          3. Composing Components: <HieuSauState />,<HelloWorld />,<IntroducingJSX />,<RenderingElement />,<ComponentAndProps />
+                                                  <StateAndLifecycle />,<HandlingEvent /> ,<ConditionalRendering />,<ListsAndKeys />,<Form />,<LiftingStateUp />,<ComponentInheritance />,<ThinkingInReact />*/}
+
+            {/*          4. Extracting components:<HieuSauState />,<HelloWorld />,<IntroducingJSX />,<RenderingElement />,<ComponentAndProps />
+                                                  <StateAndLifecycle />,<HandlingEvent /> ,<ConditionalRendering />,<ListsAndKeys />,<Form />,<LiftingStateUp />,<ComponentInheritance />,<ThinkingInReact />*/}
             <HieuSauState />
             <hr />
             <HelloWorld />

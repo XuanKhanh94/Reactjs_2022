@@ -13,6 +13,9 @@ import TuanReactSpace from "./tuan/TuanReactSpace";
 import OurReactSpace from "./oursWorking/OurReactSpace";
 import KhanhReact from "./khanh/KhanhReact";
 
+// 3.Rendering Elements
+// 1. Rendering an Element into the DOM: const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

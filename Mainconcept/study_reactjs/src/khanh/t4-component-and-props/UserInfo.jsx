@@ -1,12 +1,22 @@
 import Avatar from "./Avatar";
 import Info from "./Info";
 
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: function UserInfo(props)
+
 export default function UserInfo(props) {
+    // 4.Components and Props
+    //      5. Props are readonly!:    const avatar = props.dataUser.avatar;
+    //                                 const user = props.dataUser
     const avatar = props.dataUser.avatar;
     const user = props.dataUser
     return (
         <div className="style">
             <h1>Unit 4: Component and Props</h1>
+            {/* 4. Components and Props */}
+            {/*     2. Rendering a Component: user-definded Components =>  <Avatar avatar={avatar} />
+                                                                           <Info user={user} />*/}
             <Avatar avatar={avatar} />
             <Info user={user} />
 

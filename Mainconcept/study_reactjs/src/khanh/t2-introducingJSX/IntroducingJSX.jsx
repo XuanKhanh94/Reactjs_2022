@@ -1,4 +1,10 @@
+// 4.Components and Props
+//      1. Function And Class Components
+//          a. Function component: function IntroducingJSX()
+
 export default function IntroducingJSX() {
+    // 2.Introducing JSX
+    //      1. Embeding expressions in JSX: const unit = ' Introducing JSX', <h1>Unit 2:  {unit}
     const unit = ' Introducing JSX';
     return (
         <div className="style">
